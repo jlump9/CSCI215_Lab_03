@@ -29,6 +29,7 @@ function calculate() {
     // Body Surface Area (BSA)
     // ------------------------------
 
+
     var BSA = Math.sqrt( (height_cm*weight_kg)/3600 );
 
     // -------------------------------
@@ -51,8 +52,6 @@ function calculate() {
     // -------------------------------
     // Body Mass Index (BMI)
     // -------------------------------
-
-    var BMI = 0;
 
     var BMI = weight_kg/Math.pow(height_m,2);
 
